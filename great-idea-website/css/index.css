@@ -64,27 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
-	border: 1px solid blue;
-}
+
+/*nav code*/
+
+
 nav{
 	text-align:center;
+	width: 80%;
 }
 nav ul li{
 	color:grey;
 	padding: 25px;
 	display:inline;
 }
+
+
 header{
-	display:block
-	
+	display:block;
+	border:1px solid red;
+	margin:2%;
 }
 .headerleft {
 	display:inline-block;
-	margin:25px;
 	border: 1px solid darkblue;
-	width:40% ;
-	height:400px ;
+	height:381px;
+	width: 385px;
+	vertical-align: middle;
+	margin-left:25%;
 }
 .headerlefttext h1{
 	font-size:60px;
@@ -96,15 +102,36 @@ header{
 	text-align: center;
 	border: 1px dotted grey;
 	width:100px;
-	margin:auto;
+	margin:auto ;
+	margin-bottom: 25px;
 
 }
 .headerright{
 	display:inline-block;
 	border: 1px solid black;
-	margin:auto;
+	vertical-align: middle;
+	
+}
+.aroundImg{
+	display:block;
+	border:1px solid black;
+}
+.left-stuff {
+	display:inline-block;
+	border: 1px solid green;
+	width:40%;
+}
+.aroundImg .right-stuff {
+	display:inline-block;
+	border: 1px solid green;
+	width:40%;
+}
+.middle-img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-.middle-img{
-	margin: auto;
+hr{
+	border:1px solid black
 }

@@ -67,8 +67,14 @@ h1, h2, h3, h4, h5 {
 
 nav ul li{
 	color:grey;
-	width:160px;
-	height:100px;
 	padding: 25px;
+	display:inline;
 }
 
+.headerleft h1{
+	font-size:60px;
+	font:Impact, fantasy;
+	font-style: italic;
+	display:box;
+	padding: 100px 50px;
+}

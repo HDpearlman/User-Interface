@@ -65,16 +65,33 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+nav{
+	text-align:center;
+}
 nav ul li{
 	color:grey;
 	padding: 25px;
 	display:inline;
 }
 
-.headerleft h1{
+.headerleft {
+	display:block;
+	margin:25px;
+	border: 1px solid darkblue;
+	width:50%;
+}
+.headerlefttext h1{
 	font-size:60px;
 	font:Impact, fantasy;
 	font-style: italic;
-	display:box;
-	padding: 100px 50px;
+	text-align: center;
+}
+.headerleft .smallwhitebox{
+	text-align: center;
+	border: 1px dotted grey;
+	width:100px;
+	box-align: center;
+}
+.headerright{
+	display:inline;
 }

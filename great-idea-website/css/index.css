@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+* {
+	border: 1px solid blue;
+}
 nav{
 	text-align:center;
 }
@@ -73,12 +75,16 @@ nav ul li{
 	padding: 25px;
 	display:inline;
 }
-
+header{
+	display:block
+	
+}
 .headerleft {
-	display:block;
+	display:inline-block;
 	margin:25px;
 	border: 1px solid darkblue;
-	width:50%;
+	width:40% ;
+	height:400px ;
 }
 .headerlefttext h1{
 	font-size:60px;
@@ -90,8 +96,15 @@ nav ul li{
 	text-align: center;
 	border: 1px dotted grey;
 	width:100px;
-	box-align: center;
+	margin:auto;
+
 }
 .headerright{
-	display:inline;
+	display:inline-block;
+	border: 1px solid black;
+	margin:auto;
+}
+
+.middle-img{
+	margin: auto;
 }
